@@ -17,7 +17,7 @@ app.use(morgan("tiny"));
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://server-production-2753.up.railway.app"],
+    origin: ["http://localhost:3000", "https://client-seven-coral.vercel.app"],
   }),
 );
 
